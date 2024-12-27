@@ -3,6 +3,9 @@
 ## Overview
 The Pediatrics Department Screen is a web application that allows healthcare professionals to manage and monitor patient records in a pediatric department. Users can search for patients by name, view detailed patient reports, and manage records for vaccines, follow-ups, and lab tests.
 
+## Live Project Link
+hospital-management-ten-sigma.vercel.app
+
 ## Features
 - Search for patients by name.
 - View detailed patient reports:
