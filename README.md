@@ -49,19 +49,19 @@ The Pediatrics Department Screen is a web application that allows healthcare pro
    git clone <repository-url>
 
 2. Navigate to the project directory:
-cd <project-directory>
+  ```bash
+   cd <project-directory>
 
 
 3. Install dependencies:
-npm install
+   npm install
 
 4. Run the app:
 npm start
 
 
-Contributing
+### Contributing
 Feel free to fork the repository, create a branch, and submit pull requests. Contributions are welcome to enhance functionality and improve the UI.
 
-License
-
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
