@@ -43,27 +43,25 @@ The Pediatrics Department Screen is a web application that allows healthcare pro
 ## Data Management
 - All patient data is dynamically fetched from `PatientData.jsx` in the `utils` folder of the `src` directory.
 - Users can add, update, or delete vaccine records, follow-ups, and lab tests.
-
 ## Installation
 1. Clone the repository:
    ```bash
    git clone <repository-url>
 
-2.Navigate to the project directory:
- ```bash
- cd <project-directory>
+2. Navigate to the project directory:
+cd <project-directory>
 
-3.Install dependencies:
 
+3. Install dependencies:
 npm install
 
-Run the app:
+4. Run the app:
+npm start
 
-    npm start
 
 Contributing
-
 Feel free to fork the repository, create a branch, and submit pull requests. Contributions are welcome to enhance functionality and improve the UI.
+
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
