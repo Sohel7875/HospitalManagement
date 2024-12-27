@@ -53,3 +53,35 @@
   width: 100%;
   table-layout: fixed;
 }
+
+
+
+@media (max-width: 768px) {
+  .table_container {
+    height: auto;
+  }
+  .table {
+    display: block;
+    overflow-x: auto;
+  }
+  .table thead {
+    display: none;
+  }
+  .table tbody tr {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 10px;
+  }
+  .table tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+  }
+  .table tbody td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 10px;
+    color: #495057;
+  }
+}

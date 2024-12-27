@@ -111,3 +111,57 @@
     color: #66bb6a;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .infoGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .section {
+      padding: 15px;
+    }
+  
+    .headerText {
+      font-size: 1.2rem;
+    }
+  
+    .actionList {
+      height: auto;
+      max-height: 200px;
+    }
+  
+    .container {
+      padding: 15px;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .headerIcon {
+      font-size: 1.5rem;
+    }
+  
+    .headerText {
+      font-size: 1rem;
+    }
+  
+    .sectionHeader {
+      font-size: 1rem;
+    }
+  
+    .actionItem {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }

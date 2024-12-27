@@ -43,24 +43,24 @@ const PatientRow = ({ patient, handleShowModal }) => {
 
   return (
     <tr>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Patient Name">
         <div className="d-flex align-items-center justify-content-center">
           <a href="#" onClick={() => handleShowModal('Patient Details', patient)}>
             {patient.name}
           </a>
         </div>
       </td>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Contact" >
         <div className="d-flex align-items-center justify-content-center">
           {patient.contact}
         </div>
       </td>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Parent">
         <div className="d-flex align-items-center justify-content-center">
           {patient.parent}
         </div>
       </td>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Immediate Actions">
         <div className="d-flex align-items-center justify-content-center">
           <div className={`d-flex flex-column ${styles.immediateActions}`} >
             {immediateActions.map((action, index) => (
@@ -84,12 +84,12 @@ const PatientRow = ({ patient, handleShowModal }) => {
 
         </div>
       </td>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Due Date">
         <div className="d-flex align-items-center justify-content-center">
           {patient.dueDate}
         </div>
       </td>
-      <td className="align-middle">
+      <td className="align-middle" data-label="Action">
         <div className="d-flex align-items-center justify-content-center">
           <div className="d-flex flex-wrap gap-2">
             <Button

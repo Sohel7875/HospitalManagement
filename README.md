@@ -49,7 +49,7 @@ The Pediatrics Department Screen is a web application that allows healthcare pro
    git clone <repository-url>
 
 2. Navigate to the project directory:
-  ```bash
+
    cd <project-directory>
 
 
@@ -60,8 +60,8 @@ The Pediatrics Department Screen is a web application that allows healthcare pro
 npm start
 
 
-### Contributing
+## Contributing
 Feel free to fork the repository, create a branch, and submit pull requests. Contributions are welcome to enhance functionality and improve the UI.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
